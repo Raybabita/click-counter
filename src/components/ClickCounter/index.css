@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 50px;
+  color: #2d3a35;
+}
+.description {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #2d3a35;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+.btn-container {
+  text-align: center;
+}
+.btn {
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+}
+
+.counterValue {
+  color: red;
+}
